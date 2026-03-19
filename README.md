@@ -70,3 +70,11 @@ JOIN Appointments USING(CustomerID)
 JOIN Payments USING(AppointmentID)
 GROUP BY FullName
 ORDER BY TotalSpent DESC;
+
+```
+
+---
+
+##  Outcome
+
+This database improves efficiency, accuracy, and decision-making in a salon environment.
